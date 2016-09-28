@@ -1,0 +1,26 @@
+2) exercicio copybytestexto
+ * Neste exercicio trataremos os fluxos de Bytes (binary streams)
+
+Por cada modificacion que se pide deixa comentada a linea como estaba antes da modificacion para deixar constancia de todas as modificacions desenvolvidas no exercicio.
+
+A clase   FileInputStream permite ler bytes dende un ficheiro do sistema .
+Para elo podemos utilizar o metodo read()( de dita clase que leera byte a byte . cando se pase o fin do ficheiro devoltara un valor -1 
+
+
+FileOutputStream e unha clase que permite facer xusto o contrario, escribir bytes nun ficheiro do sistema.
+Para elo podemos utilizar o metodo write() de dita clase.
+ 
+nota: a clase FileOutputStream acepta nun dos seus  contructores un segundo parametro tipo boolean que si e true indica que  o ficheiro se abre en modo append (engadir)
+
+nota : lembrar pechar o OutputStream co seu metodo close() deste xeito os datos que poidan quedar no buffer son trasladados ao ficheiro destino
+
+1)crea cun editor de texto simple (gedit por exemplo) un pequeno ficheiro de texto chamado texto1.txt con tres lineas :
+ola
+adeus
+cecais
+
+2_1)Desenvolve unha pequena aplicacion que usando somente estas duas clases e os metodos indicados  copie  byte a byte o contido do  ficheiro de texto chamado texto1.txt noutro ficheiro chamado texto2.txt
+
+2_2) executa por segunda vez a aplicacion para que se engada de novo o texto do ficheiro texto1.txt no ficheiro texto2.txt
+
+ */
